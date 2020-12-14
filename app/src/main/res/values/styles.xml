@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BaseTitle">
+        <item name="android:textSize">@dimen/BU5_sp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BaseButton">
+        <item name="android:textSize">@dimen/BU3_sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@android:color/darker_gray</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="ViewModel"
+            type="de.stuydycase.parship.viewmodel.ToggleTitleViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:textId="@{ViewModel.title}"
+            app:textColorId="@{ViewModel.color}"
+            style="@style/BaseTitle"/>
+
+        <Button
+            android:id="@+id/button_main"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/toggle_fragment_main_button"
+            android:onClick="@{()-> ViewModel.onClick()}"
+            style="@style/BaseButton" />
+    </RelativeLayout>
+</layout>

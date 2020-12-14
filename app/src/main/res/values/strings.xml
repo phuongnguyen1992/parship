@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">parship</string>
+
+    <!-- TOGGLE FRAGMENT -->
+    <string name="toggle_fragment_main_button">TOGGLE</string>
+    <string name="toggle_fragment_title_parship">Parship</string>
+    <string name="toggle_fragment_title_elite_partner">Elitepartner</string>
+    <string name="toggle_fragment_title_default">Default Title</string>
+</resources>

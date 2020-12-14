@@ -1,0 +1,17 @@
+<resources>
+    <dimen name="BU">8dp</dimen>
+    <dimen name="BU2">16dp</dimen>
+    <dimen name="BU3">24dp</dimen>
+    <dimen name="BU4">32dp</dimen>
+    <dimen name="BU25">200dp</dimen>
+
+    <dimen name="BU_sp">8sp</dimen>
+    <dimen name="BU2_sp">16sp</dimen>
+    <dimen name="BU3_sp">24sp</dimen>
+    <dimen name="BU4_sp">32sp</dimen>
+    <dimen name="BU5_sp">40sp</dimen>
+    <dimen name="BU25_sp">200sp</dimen>
+
+    <dimen name="button_width">@dimen/BU25</dimen>
+    <dimen name="button_margin">@dimen/BU4</dimen>
+</resources>
